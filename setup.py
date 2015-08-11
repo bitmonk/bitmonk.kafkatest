@@ -13,7 +13,7 @@ setup(name='bitmonk.kafkatest',
       classifiers=[
         "Programming Language :: Python",
         ],
-      keywords='',
+      keywords='kafka',
       author='',
       author_email='',
       url='http://svn.plone.org/svn/collective/',
@@ -24,6 +24,7 @@ setup(name='bitmonk.kafkatest',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'pykafka',
           # -*- Extra requirements: -*-
       ],
       entry_points="""

@@ -21,5 +21,6 @@ Description: Introduction
         
         - Initial release
         
+Keywords: kafka
 Platform: UNKNOWN
 Classifier: Programming Language :: Python
