@@ -12,5 +12,5 @@ p = topic.get_producer()
 
 for i in range(86400):
   p.produce(["message %s" % str(i)])
-  time.sleep(1)
+  time.sleep(0.01)
 
